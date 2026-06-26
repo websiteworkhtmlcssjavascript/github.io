@@ -270,40 +270,6 @@ font-size:13px;
 opacity:0.7;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* WHATSAPP */
 .whatsapp{
 position:fixed;
@@ -339,5 +305,26 @@ align-items:center;
 .hero h2{
 font-size:35px;
 }
+
+}@media (max-width: 768px) {
+
+  h1, h2 {
+    font-size: 20px;
+  }
+
+  .socials {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .whatsapp {
+    bottom: 15px;
+    right: 10px;
+    font-size: 20px;
+  }
+
+  .footer {
+    padding: 15px;
+  }
 
 }
